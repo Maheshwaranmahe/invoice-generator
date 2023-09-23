@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Figtree', sans-serif;
+}
+:root{
+    --black:#000;
+    --red:#ff0000;
+    --white:#fff;
+    --button:#ababab;
+    --blue:#370072;
+    --light:#f8f9fa;
+    --text:#202020;
+}
+nav p{
+    font-weight: 600;
+    padding-top: 1%;
+}
+.invoice{
+    padding-left: 7%;
+    padding-top: 4%;
+}
+.head{
+    margin-left: 4%;
+    margin-top: 3%;
+}
+.invoice p{
+    padding-top: 2%;
+}
+.invoice .head button{
+    padding: 0 2%;
+    border: none;
+    border-radius: 10%;
+    color: var(--white);
+    background-color: var(--button);
+}
+.invoice .invoice-content input{
+    margin-left: 0;
+    height: 50%;
+    width: 100%;
+}
+.invoice .invoice-content table{
+    width: 100%;
+}
+.invoice .invoice-content .td{
+    text-align: end;
+}
+
+.buttons{
+    margin-left: 7%;
+}
+.invoice .buttons .button{
+    width: 100%;
+    padding: 3%;
+    margin-top: 5px;
+    background-color: var(--white);
+}
+.invoice .buttons .buttonbutton{
+    color: var(--white);
+    width: 100%;
+    padding: 3%;
+    margin-top: 5px;
+    background-color: var(--red);
+}
+.invoice .buttons .button4{
+    color: var(--white);
+    width: 100%;
+    padding: 3%;
+    margin-top: 5px;
+    background-color: var(--blue);
+}
+.invoice .buttons .button1{
+    width: 46%;
+    margin-top: 5px;
+    background-color: var(--blue);
+    color: var(--white);
+    padding: 3%;
+}
+.invoice .buttons .button2{
+    width: 48%;
+    margin-top: 5px;
+    margin-left: 4%;
+    background-color: var(--blue);
+    color: var(--white);
+    padding: 3%;
+}
+.invoice .currency{
+    margin-left: 7%;
+}
+.invoice .currency input{
+    width: 100%;
+}
+.invoice .saved{
+    margin-left: 7%;
+}
+.invoice .saved .button3{    
+    width: 100%;
+    padding: 5% 0;
+    margin-top: 5px;
+    border: none;
+    background-color: var(--light);
+}
+.invoice .table2{
+    width: 50%;
+    margin-left: 2%;
+    margin-top: 5%;
+}
+.invoice-content .ul li{
+    margin-left: 10px;
+}
+.body{
+    margin-left: 4%;
+    margin-top: 3%;
+}
+.body h6{
+    font-weight: bolder;
+}
+.body input{
+    margin-left: 30%;
+    border: none;
+    background-color: var(--light);
+}
+.text {
+    padding-top: 10%;
+    margin: 0 25%;
+}
+.text li{
+    font-weight: bold;
+    list-style: disc;
+}
+.text p{
+    color: var(--text);
+}
+
+footer{
+    margin-top: 10%;
+}
+footer p{
+    font-weight: 800;
+}
+footer .icon{
+    position: absolute;
+    right: 5%;
+}
+footer .icon i{
+    margin-left: 10px;
+    color: var(--button);
+}
+
+@media only screen and (min-width:150px) and (max-width:900px) {
+    .text{
+        margin: 0 2%;
+    }
+    .left{
+        margin-left: 1px;
+    }
+}
